@@ -1,6 +1,9 @@
 // index.js
 const express = require("express");
+const cors = require('cors');
 const app     = express();
+
+app.use(cors());
 
 // 1) Mount JSON body‑parsing (if you need POST later)
 app.use(express.json());
