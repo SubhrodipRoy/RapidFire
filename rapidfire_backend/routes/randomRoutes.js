@@ -4,11 +4,12 @@ const router  = express.Router();
 
 // import each generator
 const generatePercentageQuestion = require("./percentageGenerator");
+const generateFractionQuestion = require("./fractionGenerator");
 // …add more as you create them…
 
 // 2)put them in an array
 const generators = [
-  generatePercentageQuestion,
+  generatePercentageQuestion, generateFractionQuestion,
   // …etc…
 ];
 

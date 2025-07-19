@@ -83,7 +83,7 @@ function App() {
     <div className="App">
       {!started && (
         <div className="home-screen">
-          <h1>🔥 RapidFire Quiz 🔥</h1>
+          <h1>RapidFire</h1>
           <button className="start-button" onClick={handleStart}>
             START
           </button>
